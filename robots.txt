@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kazunet1030-debug.github.io/sitemap.xml
