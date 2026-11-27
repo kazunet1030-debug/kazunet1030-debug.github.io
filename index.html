@@ -21,38 +21,306 @@
   </script>
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner wrap">
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
     <a class="brand" href="index.html" aria-label="LECTONE トップページ"><img class="brand-mark-img" src="lectone-icon.svg" alt="LECTONE"><span class="brand-copy">LECTONE <small>AI CONSULTING</small></span></a>
     <nav aria-label="メインナビゲーション"><a href="#services">サービス</a><a href="#flow">進め方</a><a href="#faq">よくある質問</a></nav>
     <a class="header-cta" href="contact.html">無料相談 <span aria-hidden="true">↗</span></a>
   </div>
 </header>
+
+<nav class="dotnav" aria-label="セクションナビゲーション">
+  <a href="#top" data-target="top" aria-label="トップ"></a>
+  <a href="#about" data-target="about" aria-label="AIコンサルティングとは"></a>
+  <a href="#problems" data-target="problems" aria-label="お悩み"></a>
+  <a href="#services" data-target="services" aria-label="サービス"></a>
+  <a href="#flow" data-target="flow" aria-label="進め方"></a>
+  <a href="#pricing" data-target="pricing" aria-label="料金の目安"></a>
+  <a href="#faq" data-target="faq" aria-label="よくある質問"></a>
+  <a href="#profile" data-target="profile" aria-label="運営者について"></a>
+</nav>
+
 <main>
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> FOR COURSE CREATORS &amp; EDUCATORS</p>
-        <p class="hero-label">講座主・講師のための AIコンサルティング</p>
-        <h1>講座の集客から<br>仕組み化まで、<em>一気通貫で。</em></h1>
-        <p class="hero-text">AI導入の相談から、コンテンツ制作、SNS集客、LINEボット・HPの開発、講座の立ち上げ支援まで。講座ビジネスの全体を、一緒に進めます。</p>
-        <a class="button button-dark" href="contact.html">無料相談はこちら <span aria-hidden="true">↗</span></a>
+  <section class="hero" id="top">
+    <div class="hero-inner" id="heroInner">
+      <p class="eyebrow">FOR COURSE CREATORS &amp; EDUCATORS</p>
+      <p class="hero-label">講座主・講師のための AIコンサルティング</p>
+      <h1>講座の集客から<br>仕組み化まで、<em>一気通貫で。</em></h1>
+      <p class="hero-text">AI導入の相談から、コンテンツ制作、SNS集客、LINEボット・HPの開発、講座の立ち上げ支援まで。講座ビジネスの全体を、一緒に進めます。</p>
+      <div class="hero-buttons">
+        <a class="button" href="contact.html">無料相談はこちら <span aria-hidden="true">↗</span></a>
+        <a class="button button-solid" href="#services">サービスを見る <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-art" aria-hidden="true"><div class="art-grid"></div><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-center"><span>YOUR WORK,</span><strong>RE<br>DESIGN<span>.</span></strong><small>WITH AI</small></div><div class="art-note">AI × COURSE<br>OPERATIONS <span>01 — 03</span></div><div class="art-cross">✳</div></div>
     </div>
-    <div class="hero-bottom wrap"><span>AI FOR BETTER WORK</span><span>SCROLL TO EXPLORE <i>↓</i></span></div>
+    <div class="hero-bottom"><span>AI FOR BETTER WORK</span><span>SCROLL TO EXPLORE ↓</span></div>
+    <div class="wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0,60 C240,110 480,10 720,50 C960,90 1200,20 1440,60 L1440,110 L0,110 Z" fill="rgba(255,255,255,0.35)"/><path d="M0,80 C240,120 480,40 720,70 C960,100 1200,50 1440,80 L1440,110 L0,110 Z" fill="#ffffff"/></svg>
+    </div>
   </section>
+
+  <section class="stats" aria-label="実績">
+    <div class="wrap">
+      <div class="stats-grid">
+        <div><p class="stat-num"><span class="count" data-count="300">0</span><small>万円</small></p><p class="stat-label">AI課金額（累計）</p></div>
+        <div><p class="stat-num"><span class="count" data-count="5">0</span><small>事業</small></p><p class="stat-label">講座ビジネスへの支援</p></div>
+        <div><p class="stat-num"><span class="count" data-count="4">0</span><small>ステップ</small></p><p class="stat-label">相談から定着までの進め方</p></div>
+      </div>
+      <p class="stats-note">※ AI課金額は本人の実績です。</p>
+    </div>
+  </section>
+
   <section class="section intro" id="about">
-    <div class="wrap split"><div class="section-heading"><p class="eyebrow"><span></span> 01 / ABOUT</p><h2>AIを、講座運営の<br>心強いパートナーに。</h2><p class="heading-en">WHAT IS AI CONSULTING?</p></div><div class="intro-body"><h3>AIコンサルティングとは</h3><p>AIコンサルティングとは、日々の業務や課題を整理し、それぞれの仕事に合ったAIの活用方法を考え、導入から定着までを支援することです。講座やスクール、セミナーの運営には、教材の準備から受講生への対応、発信、事務作業まで、さまざまな仕事があります。どこに時間がかかっているか、どの作業にAIを活かせるかは、一人ひとり異なります。まずは現在の進め方を伺い、優先したい課題を一緒に整理します。ChatGPTやClaudeなどの活用、情報を扱う仕組みづくりも含め、講座運営に合った方法を検討。AIを取り入れること自体を目的にせず、日々の仕事の中で使い続けられる形を目指します。さらに、コンテンツ制作やSNS集客、LINEボット・HPの開発、講座やサミットの立ち上げ支援まで、講座ビジネスに関わる5つの支援を一気通貫で提供します。</p><a class="text-link" href="contact.html">AI活用について相談する <span>↗</span></a></div></div>
+    <div class="wrap split reveal">
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>AIを、講座運営の<br>心強いパートナーに。</h2>
+        <p class="heading-en">WHAT IS AI CONSULTING?</p>
+      </div>
+      <div class="intro-body">
+        <h3>AIコンサルティングとは</h3>
+        <p>AIコンサルティングとは、日々の業務や課題を整理し、それぞれの仕事に合ったAIの活用方法を考え、導入から定着までを支援することです。講座やスクール、セミナーの運営には、教材の準備から受講生への対応、発信、事務作業まで、さまざまな仕事があります。どこに時間がかかっているか、どの作業にAIを活かせるかは、一人ひとり異なります。まずは現在の進め方を伺い、優先したい課題を一緒に整理します。ChatGPTやClaudeなどの活用、情報を扱う仕組みづくりも含め、講座運営に合った方法を検討。AIを取り入れること自体を目的にせず、日々の仕事の中で使い続けられる形を目指します。さらに、コンテンツ制作やSNS集客、LINEボット・HPの開発、講座やサミットの立ち上げ支援まで、講座ビジネスに関わる5つの支援を一気通貫で提供します。</p>
+        <a class="text-link" href="contact.html">AI活用について相談する <span>↗</span></a>
+      </div>
+    </div>
   </section>
-  <section class="section problems" id="problems"><div class="wrap"><div class="section-top"><div><p class="eyebrow"><span></span> 02 / CHALLENGES</p><h2>こんなお悩み、<br>ありませんか？</h2></div><p class="section-lead">講座に向き合いたいのに、<br>毎日の作業に追われてしまう。</p></div><div class="problem-grid"><article><span class="number">01</span><h3>資料づくり</h3><p>講座資料や教材の準備に、まとまった時間がかかる。</p></article><article><span class="number">02</span><h3>受講生対応</h3><p>受講生への連絡や質問への対応に、時間を取られている。</p></article><article><span class="number">03</span><h3>集客・発信</h3><p>SNSでの発信を続けたいけれど、考える時間が足りない。</p></article><article><span class="number">04</span><h3>事務作業</h3><p>細かな事務作業が重なり、やりたいことに手が回らない。</p></article></div><div class="section-action"><p>その作業、AIと一緒に見直してみませんか。</p><a class="text-link" href="contact.html">まずは悩みを相談する <span>↗</span></a></div></div></section>
-  <section class="section services" id="services"><div class="wrap"><div class="section-top"><div><p class="eyebrow"><span></span> 03 / SERVICES</p><h2>講座ビジネスに必要な、<br>5つの支援を。</h2></div><p class="section-lead">AI導入から集客・開発まで、<br>講座の全体を一気通貫で。</p></div><div class="service-list"><article class="service-row"><div class="service-number">01 <span>/ CONSULTING</span></div><div><h3>AI導入コンサルティング</h3><p>現在の業務やお悩みを伺い、講座運営に合ったAIの活用方法を一緒に整理します。ChatGPTやClaudeの業務活用などをご相談いただけます。</p></div><span class="service-arrow" aria-hidden="true">↗</span></article><article class="service-row"><div class="service-number">02 <span>/ CONTENT</span></div><div><h3>コンテンツ制作</h3><p>リールや台本、教材など、講座の顔になるコンテンツを企画・制作します。発信の土台づくりからお手伝いします。</p></div><span class="service-arrow" aria-hidden="true">↗</span></article><article class="service-row"><div class="service-number">03 <span>/ PROMOTION</span></div><div><h3>SNS集客・プロモーション</h3><p>Instagramでの発信設計や、ManyChat・LINEを使った集客の導線づくりを支援します。問い合わせにつながる流れを一緒に整えます。</p></div><span class="service-arrow" aria-hidden="true">↗</span></article><article class="service-row"><div class="service-number">04 <span>/ DEVELOPMENT</span></div><div><h3>開発・自動化</h3><p>LINEボットやホームページ、業務の自動化など、講座運営を支える仕組みを構築します。Claude CodeとObsidianの連携なども、活用の選択肢として検討します。</p></div><span class="service-arrow" aria-hidden="true">↗</span></article><article class="service-row"><div class="service-number">05 <span>/ PRODUCE</span></div><div><h3>事業プロデュース</h3><p>サミットや新規講座の立ち上げなど、講座ビジネスの新しい一歩を企画から伴走します。</p></div><span class="service-arrow" aria-hidden="true">↗</span></article></div><div class="section-action"><p>必要な支援は、お話を伺いながら考えます。</p><a class="text-link" href="contact.html">サービスについて相談する <span>↗</span></a></div></div></section>
-  <section class="section flow" id="flow"><div class="wrap"><div class="section-top"><div><p class="eyebrow"><span></span> 04 / PROCESS</p><h2>ご相談から、<br>活用の定着まで。</h2></div><p class="section-lead">今の状況を伺うところから、<br>一歩ずつ進めます。</p></div><div class="flow-grid"><article><span>STEP 01</span><h3>無料相談</h3><p>講座の内容や、日々困っていることをお聞かせください。</p></article><article><span>STEP 02</span><h3>現状診断</h3><p>業務の流れと課題を整理し、AIを活かせる場面を考えます。</p></article><article><span>STEP 03</span><h3>導入・構築</h3><p>ご相談内容に合わせて、AIの導入や仕組みづくりを進めます。</p></article><article><span>STEP 04</span><h3>定着サポート</h3><p>日々の業務の中で、無理なく活用を続けられるよう支援します。</p></article></div><div class="section-action"><p>まずは、気になっていることから。</p><a class="text-link" href="contact.html">無料相談に進む <span>↗</span></a></div></div></section>
-  <section class="section pricing" id="pricing"><div class="wrap"><div class="section-top"><div><p class="eyebrow"><span></span> 05 / PRICING</p><h2>料金の目安</h2></div><p class="section-lead">ご相談内容や支援の範囲に応じて<br>ご案内します。</p></div><div class="price-grid"><article><span>01</span><h3>AI導入<br>コンサルティング</h3><p class="price">要相談</p><p>課題の整理とAI活用の検討</p></article><article><span>02</span><h3>コンテンツ<br>制作</h3><p class="price">要相談</p><p>リール・台本・教材の企画制作</p></article><article><span>03</span><h3>SNS集客・<br>プロモーション</h3><p class="price">要相談</p><p>発信設計と集客の導線づくり</p></article><article><span>04</span><h3>開発・<br>自動化</h3><p class="price">要相談</p><p>LINEボット・HP・業務自動化の構築</p></article><article><span>05</span><h3>事業<br>プロデュース</h3><p class="price">要相談</p><p>サミット・新規講座の立ち上げ支援</p></article></div><div class="section-action"><p>内容を伺ったうえで、料金をご案内します。</p><a class="text-link" href="contact.html">料金について相談する <span>↗</span></a></div></div></section>
-  <section class="section faq" id="faq"><div class="wrap split"><div class="section-heading"><p class="eyebrow"><span></span> 06 / FAQ</p><h2>よくある質問</h2><p class="heading-en">QUESTIONS &amp; ANSWERS</p></div><div class="faq-list"><article><h3><span>Q.</span> AIを使ったことがなくても相談できますか？</h3><p><span>A.</span> はい。現在の状況や困っている作業を伺い、AIの活用方法を一緒に整理します。</p></article><article><h3><span>Q.</span> どのような講座運営の作業を相談できますか？</h3><p><span>A.</span> 資料作成、受講生対応、SNS発信、事務作業など、講座運営に関わる作業についてご相談いただけます。</p></article><article><h3><span>Q.</span> どのAIを使うか決まっていなくても大丈夫ですか？</h3><p><span>A.</span> はい。用途や現在の状況を伺いながら、活用方法を検討します。</p></article><article><h3><span>Q.</span> AI導入以外（集客やHP制作など）も相談できますか？</h3><p><span>A.</span> はい。コンテンツ制作、SNS集客、LINEボットやHPの開発、講座やサミットの立ち上げ支援まで、講座ビジネスに関わることをまとめてご相談いただけます。</p></article><article><h3><span>Q.</span> 料金はどのように決まりますか？</h3><p><span>A.</span> ご相談内容や支援の範囲に応じてご案内します。各サービスの料金は要相談です。</p></article><article><h3><span>Q.</span> 相談はどこからできますか？</h3><p><span>A.</span> 相談ページにあるInstagramのDMまたは公式LINEからご連絡ください。</p></article><a class="text-link" href="contact.html">その他の質問を相談する <span>↗</span></a></div></div></section>
-  <section class="section profile" id="profile"><div class="wrap split"><div class="section-heading"><p class="eyebrow"><span></span> 07 / PROFILE</p><h2>運営者について</h2><p class="heading-en">ABOUT KAZUKI</p></div><div class="profile-body"><div class="profile-monogram" aria-hidden="true">K<span>.</span></div><div><p class="profile-role">講座主さんのためのAI活用</p><h3>かずき <small>KAZUKI</small></h3><p>講座×AI導入の仕組み化、AIを使った時短術・効率化を強みとし、実際に使ったさまざまなAIの経験をシェアしています。AI課金額は累計300万円。</p><p class="profile-social">Instagram <a href="https://www.instagram.com/kazuki_aiskillns/">@kazuki_aiskillns ↗</a></p><a class="text-link" href="contact.html">かずきに相談する <span>↗</span></a></div></div></div></section>
-  <section class="final-cta"><div class="wrap final-inner"><div><p class="eyebrow"><span></span> LET'S GET STARTED</p><h2>講座ビジネスを、<br>まるごと前に進める。</h2><p>今の悩みや、やってみたいことをお聞かせください。</p></div><a class="button button-light" href="contact.html">無料相談はこちら <span aria-hidden="true">↗</span></a></div></section>
+
+  <section class="section problems" id="problems">
+    <div class="wrap reveal">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Challenges</p>
+          <h2>こんなお悩み、<br>ありませんか？</h2>
+        </div>
+        <p class="section-lead">講座に向き合いたいのに、<br>毎日の作業に追われてしまう。</p>
+      </div>
+      <div class="problem-grid">
+        <article><span class="number">01</span><h3>資料づくり</h3><p>講座資料や教材の準備に、まとまった時間がかかる。</p></article>
+        <article><span class="number">02</span><h3>受講生対応</h3><p>受講生への連絡や質問への対応に、時間を取られている。</p></article>
+        <article><span class="number">03</span><h3>集客・発信</h3><p>SNSでの発信を続けたいけれど、考える時間が足りない。</p></article>
+        <article><span class="number">04</span><h3>事務作業</h3><p>細かな事務作業が重なり、やりたいことに手が回らない。</p></article>
+      </div>
+      <div class="section-action">
+        <p>その作業、AIと一緒に見直してみませんか。</p>
+        <a class="text-link" href="contact.html">まずは悩みを相談する <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" id="services">
+    <div class="wrap reveal">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Services</p>
+          <h2>講座ビジネスに必要な、<br>5つの支援を。</h2>
+        </div>
+        <p class="section-lead">AI導入から集客・開発まで、<br>講座の全体を一気通貫で。</p>
+      </div>
+      <div class="service-frame">
+        <article class="service-row">
+          <div class="service-number">01 <span>/ CONSULTING</span></div>
+          <div>
+            <h3>AI導入コンサルティング</h3>
+            <p>現在の業務やお悩みを伺い、講座運営に合ったAIの活用方法を一緒に整理します。ChatGPTやClaudeの業務活用などをご相談いただけます。</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row">
+          <div class="service-number">02 <span>/ CONTENT</span></div>
+          <div>
+            <h3>コンテンツ制作</h3>
+            <p>リールや台本、教材など、講座の顔になるコンテンツを企画・制作します。発信の土台づくりからお手伝いします。</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row">
+          <div class="service-number">03 <span>/ PROMOTION</span></div>
+          <div>
+            <h3>SNS集客・プロモーション</h3>
+            <p>Instagramでの発信設計や、ManyChat・LINEを使った集客の導線づくりを支援します。問い合わせにつながる流れを一緒に整えます。</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row">
+          <div class="service-number">04 <span>/ DEVELOPMENT</span></div>
+          <div>
+            <h3>開発・自動化</h3>
+            <p>LINEボットやホームページ、業務の自動化など、講座運営を支える仕組みを構築します。Claude CodeとObsidianの連携なども、活用の選択肢として検討します。</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row">
+          <div class="service-number">05 <span>/ PRODUCE</span></div>
+          <div>
+            <h3>事業プロデュース</h3>
+            <p>サミットや新規講座の立ち上げなど、講座ビジネスの新しい一歩を企画から伴走します。</p>
+          </div>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+      <div class="section-action">
+        <p>必要な支援は、お話を伺いながら考えます。</p>
+        <a class="text-link" href="contact.html">サービスについて相談する <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section flow" id="flow">
+    <div class="wrap reveal">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Process</p>
+          <h2>ご相談から、<br>活用の定着まで。</h2>
+        </div>
+        <p class="section-lead">今の状況を伺うところから、<br>一歩ずつ進めます。</p>
+      </div>
+      <div class="flow-grid">
+        <article><span class="step">STEP 01</span><h3>無料相談</h3><p>講座の内容や、日々困っていることをお聞かせください。</p></article>
+        <article><span class="step">STEP 02</span><h3>現状診断</h3><p>業務の流れと課題を整理し、AIを活かせる場面を考えます。</p></article>
+        <article><span class="step">STEP 03</span><h3>導入・構築</h3><p>ご相談内容に合わせて、AIの導入や仕組みづくりを進めます。</p></article>
+        <article><span class="step">STEP 04</span><h3>定着サポート</h3><p>日々の業務の中で、無理なく活用を続けられるよう支援します。</p></article>
+      </div>
+      <div class="section-action">
+        <p>まずは、気になっていることから。</p>
+        <a class="text-link" href="contact.html">無料相談に進む <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pricing" id="pricing">
+    <div class="wrap reveal">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Pricing</p>
+          <h2>料金の目安</h2>
+        </div>
+        <p class="section-lead">ご相談内容や支援の範囲に応じて<br>ご案内します。</p>
+      </div>
+      <div class="price-grid">
+        <article><span class="pnum">01</span><h3>AI導入<br>コンサルティング</h3><p class="price">要相談</p><p>課題の整理とAI活用の検討</p></article>
+        <article><span class="pnum">02</span><h3>コンテンツ<br>制作</h3><p class="price">要相談</p><p>リール・台本・教材の企画制作</p></article>
+        <article><span class="pnum">03</span><h3>SNS集客・<br>プロモーション</h3><p class="price">要相談</p><p>発信設計と集客の導線づくり</p></article>
+        <article><span class="pnum">04</span><h3>開発・<br>自動化</h3><p class="price">要相談</p><p>LINEボット・HP・業務自動化の構築</p></article>
+        <article><span class="pnum">05</span><h3>事業<br>プロデュース</h3><p class="price">要相談</p><p>サミット・新規講座の立ち上げ支援</p></article>
+      </div>
+      <div class="section-action">
+        <p>内容を伺ったうえで、料金をご案内します。</p>
+        <a class="text-link" href="contact.html">料金について相談する <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="wrap split reveal">
+      <div class="section-heading">
+        <p class="section-label">Faq</p>
+        <h2>よくある質問</h2>
+        <p class="heading-en">QUESTIONS &amp; ANSWERS</p>
+      </div>
+      <div class="faq-list">
+        <article><h3><span>Q.</span> AIを使ったことがなくても相談できますか？</h3><p><span>A.</span> はい。現在の状況や困っている作業を伺い、AIの活用方法を一緒に整理します。</p></article>
+        <article><h3><span>Q.</span> どのような講座運営の作業を相談できますか？</h3><p><span>A.</span> 資料作成、受講生対応、SNS発信、事務作業など、講座運営に関わる作業についてご相談いただけます。</p></article>
+        <article><h3><span>Q.</span> どのAIを使うか決まっていなくても大丈夫ですか？</h3><p><span>A.</span> はい。用途や現在の状況を伺いながら、活用方法を検討します。</p></article>
+        <article><h3><span>Q.</span> AI導入以外（集客やHP制作など）も相談できますか？</h3><p><span>A.</span> はい。コンテンツ制作、SNS集客、LINEボットやHPの開発、講座やサミットの立ち上げ支援まで、講座ビジネスに関わることをまとめてご相談いただけます。</p></article>
+        <article><h3><span>Q.</span> 料金はどのように決まりますか？</h3><p><span>A.</span> ご相談内容や支援の範囲に応じてご案内します。各サービスの料金は要相談です。</p></article>
+        <article><h3><span>Q.</span> 相談はどこからできますか？</h3><p><span>A.</span> 相談ページにあるInstagramのDMまたは公式LINEからご連絡ください。</p></article>
+        <a class="text-link" href="contact.html">その他の質問を相談する <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section profile" id="profile">
+    <div class="wrap split reveal">
+      <div class="section-heading">
+        <p class="section-label">Profile</p>
+        <h2>運営者について</h2>
+        <p class="heading-en">ABOUT KAZUKI</p>
+      </div>
+      <div class="profile-body">
+        <div class="profile-monogram" aria-hidden="true">K<span>.</span></div>
+        <div>
+          <p class="profile-role">講座主さんのためのAI活用</p>
+          <h3>かずき <small>KAZUKI</small></h3>
+          <p>講座×AI導入の仕組み化、AIを使った時短術・効率化を強みとし、実際に使ったさまざまなAIの経験をシェアしています。AI課金額は累計300万円。</p>
+          <p class="profile-social">Instagram <a href="https://www.instagram.com/kazuki_aiskillns/">@kazuki_aiskillns ↗</a></p>
+          <a class="text-link" href="contact.html">かずきに相談する <span>↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="wrap final-inner reveal">
+      <div>
+        <p class="eyebrow">LET'S GET STARTED</p>
+        <h2>講座ビジネスを、<br>まるごと前に進める。</h2>
+        <p>今の悩みや、やってみたいことをお聞かせください。</p>
+      </div>
+      <a class="button" href="contact.html">無料相談はこちら <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
 </main>
-<footer><div class="wrap footer-inner"><a class="brand footer-brand" href="index.html"><img class="brand-mark-img" src="lectone-icon.svg" alt="LECTONE"><span class="brand-copy">LECTONE <small>AI CONSULTING</small></span></a><p>講座主さんのためのAI活用</p><small>© LECTONE</small></div></footer>
+
+<footer>
+  <div class="wrap">
+    <nav class="footer-nav" aria-label="フッターナビゲーション">
+      <a href="#services">SERVICE <span>↗</span></a>
+      <a href="#flow">PROCESS <span>↗</span></a>
+      <a href="#faq">FAQ <span>↗</span></a>
+      <a href="contact.html">CONTACT <span>↗</span></a>
+    </nav>
+    <div class="footer-inner">
+      <a class="brand footer-brand" href="index.html"><img class="brand-mark-img" src="lectone-icon.svg" alt="LECTONE"><span class="brand-copy">LECTONE <small>AI CONSULTING</small></span></a>
+      <p>講座主さんのためのAI活用</p>
+      <small>© LECTONE</small>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var header = document.getElementById('siteHeader');
+  var heroInner = document.getElementById('heroInner');
+  function onScroll(){
+    header.classList.toggle('scrolled', window.scrollY > 40);
+    if(!reduced && heroInner){
+      var y = window.scrollY;
+      if(y < window.innerHeight){ heroInner.style.transform = 'translateY(' + (y * 0.12) + 'px)'; }
+    }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  var cio = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(!entry.isIntersecting) return;
+      var el = entry.target, target = parseInt(el.getAttribute('data-count'), 10), start = null;
+      cio.unobserve(el);
+      if(reduced){ el.textContent = target; return; }
+      function step(ts){
+        if(start === null) start = ts;
+        var p = Math.min((ts - start) / 1200, 1);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if(p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }, {threshold:0.5});
+  document.querySelectorAll('.count').forEach(function(el){ cio.observe(el); });
+  var dots = Array.prototype.slice.call(document.querySelectorAll('.dotnav a'));
+  var sections = dots.map(function(d){ return document.getElementById(d.getAttribute('data-target')); }).filter(Boolean);
+  var sio = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        dots.forEach(function(d){ d.classList.toggle('active', d.getAttribute('data-target') === e.target.id); });
+      }
+    });
+  }, {rootMargin:'-40% 0px -55% 0px'});
+  sections.forEach(function(s){ sio.observe(s); });
+})();
+</script>
 </body>
 </html>
